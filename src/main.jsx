@@ -6,6 +6,7 @@ import RootLayout from "./layout/RootLayout.jsx";
 import Home from "./pages/Home.jsx";
 import Contact from "./pages/Contact.jsx";
 import Playlists from "./pages/Playlists.jsx";
+import { PlayerProvider } from "./context/PlayerContext.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,7 +21,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <PlayerProvider>
     <RouterProvider router={router} />
+    </PlayerProvider>
   </React.StrictMode>
 );
 

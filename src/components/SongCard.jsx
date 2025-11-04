@@ -1,7 +1,11 @@
-export default function SongCard({ song, onSelect}) {
+import { usePlayer } from "../context/PlayerContext";
+
+export default function SongCard({ song }) {
+
+    const { playSong } = usePlayer();
     return (
         <div
-        onClick={() => onSelect(song)}
+        onClick={() => playSong(song)}
         className="cursor-pointer bg-slate-800 rounded-2xl overflow-hidden shadow hover:shadow-lg hover:scale-[1.02] transition-transform"
         >
         <img

@@ -22,7 +22,7 @@ export default function Home() {
                 onClick={() => setSelectSong(null)}
                 className="absolute top-2 right-3 text-slate-400 hover:text-white"
                 >
-                X
+                ✕
                 </button>
                 <img
                 src={selectSong.cover}

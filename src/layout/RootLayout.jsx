@@ -1,4 +1,5 @@
 import {Outlet, NavLink} from "react-router-dom";
+import PlayerModal from "../components/PlayerModal";
 
 export default function RootLayout() {
     return (
@@ -23,6 +24,8 @@ export default function RootLayout() {
                     © {new Date().getFullYear()} Karczma pod Lutnią by Mateusz Barć
                 </div>
             </footer>
+
+            <PlayerModal/>
         </div>
     )
 }
