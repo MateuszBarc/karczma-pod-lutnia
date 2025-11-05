@@ -1,4 +1,4 @@
-export const playlist = [
+export const playlists = [
     {
         id: 1,
         name: "Ballady o przyjaciołach",
@@ -8,13 +8,15 @@ export const playlist = [
             id: "bp1", 
             title: "Ballada o Kapeluszu co nie chcial juz spiewac", 
             artist: "Bard z Hogwartu", 
-            audio: "../public/audio/balladaKapeluszu.mp3"
+            audio: "/audio/balladaKapeluszu.mp3",
+            cover: "/covers/karczma.png"
             },
             {
             id: "bp2", 
             title: "Ballada Chatka wśród drzew (Hymn Zwiadowców)", 
             artist: "Will Treaty", 
-            audio: "../public/audio/balladaChatka.mp3"
+            audio: "/audio/balladaChatka.mp3",
+            cover: "/covers/karczma.png"
             },
         ],
     },
@@ -27,13 +29,15 @@ export const playlist = [
             id: "bw1", 
             title: "Ballada o Truciznie i Cebuli", 
             artist: "Bard Jaskier", 
-            audio: "../public/audio/balladaCebula.mp3"
+            audio: "/audio/balladaCebula.mp3",
+            cover: "/covers/karczma.png"
             },
             {
             id: "bw2", 
             title: "Braterstwo Wilków", 
             artist: "Bard z Khearn Moren", 
-            audio: "../public/audio/balladaWilkow.mp3"
+            audio: "/audio/balladaWilkow.mp3",
+            cover: "/covers/karczma.png"
             },
         ],
     },
@@ -46,13 +50,15 @@ export const playlist = [
             id: "bbg1", 
             title: "Ballada o Zeusie i Laptopie", 
             artist: "Bard Grecki", 
-            audio: "../public/audio/balladaZeus.mp3"
+            audio: "/audio/balladaZeus.mp3",
+            cover: "/covers/karczma.png"
             },
             {
             id: "bbg2", 
             title: "Ballada o Boskiej Biurokracji", 
             artist: "Bard z Khearn Moren", 
-            audio: "../public/audio/balladaBiurokracja.mp3"
+            audio: "/audio/balladaBiurokracja.mp3",
+            cover: "/covers/karczma.png"
             },
         ],
     },
